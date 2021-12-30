@@ -1,0 +1,20 @@
+@import '../../../config-scss/rem-calc.scss';
+
+:host {
+	header {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+    background-color: #78C2AD;
+    color: #fff;
+
+
+		padding: rem-calc(20) 0;
+	}
+}
+
+.form-select{
+  font-size: 14px;
+  border-radius: 4px;
+
+}
